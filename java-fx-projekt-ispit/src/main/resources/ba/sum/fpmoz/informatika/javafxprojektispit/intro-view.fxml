@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="270.0" prefWidth="462.0" spacing="20.0" style="-fx-background-color: #c71585;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.sum.fpmoz.informatika.javafxprojektispit.controller.IntroController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#userAdministration" style="-fx-font-weight: 900;" text="Pregled učenika" textFill="#1b0e0e" textOverrun="LEADING_WORD_ELLIPSIS">
+      <font>
+         <Font size="22.0" />
+      </font>
+      <effect>
+         <Blend mode="COLOR_BURN" />
+      </effect>
+   </Button>
+   <effect>
+      <Blend />
+   </effect>
+</VBox>
